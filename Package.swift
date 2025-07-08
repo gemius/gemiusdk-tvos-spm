@@ -20,8 +20,7 @@ let package = Package(
             dependencies: ["GemiusSDKtvOSFramework"],
             linkerSettings: [
                 .linkedFramework("AdSupport"),
-                .linkedFramework("SystemConfiguration"),
-                .unsafeFlags(["-ObjC"])
+                .linkedFramework("SystemConfiguration")
             ]
         ),
         .binaryTarget(
