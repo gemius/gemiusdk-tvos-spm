@@ -1,5 +1,21 @@
 Changelog for GemiusSDK iOS:
 
+VERSION 2.2.0
+Build date: 21.07.2025
+
+Changes:
+- Added new dataProcessingConsentSource property, allowing specification of the consent source used for data
+  processing (Manual, CMP, or TC String)
+- Added support for manual setting of the IAB-compatible TC String
+- Removed the useCMP property introduced in the previous version (replaced with dataProcessingConsentSource)
+- Added device model information to User Agent strings
+- Added reporting of user-visible app name
+- Updated SDK's logging mechanism to use os_log
+- Updated Google Mobile Ads dependency to version 12.7.0
+- Added new GemiusSdkSample sample app illustrating SDK usage with SwiftUI and SPM
+
+--------------------------------------------------------------------------------
+
 VERSION 2.1.0
 Build date: 08.01.2025
 
